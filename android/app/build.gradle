@@ -149,6 +149,12 @@ android {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
         }
+        release {
+            storeFile file('selfsigned.jks')
+            storePassword 'a12219ab'
+            keyAlias 'tomcat'
+            keyPassword '111111'
+        }
     }
     buildTypes {
         debug {
