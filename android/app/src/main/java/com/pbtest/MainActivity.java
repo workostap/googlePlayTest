@@ -1,4 +1,4 @@
-package com.test;
+package com.pbtest;
 
 import com.facebook.react.ReactActivity;
 

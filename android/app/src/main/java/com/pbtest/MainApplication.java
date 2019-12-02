@@ -1,4 +1,4 @@
-package com.test;
+package com.pbtest;
 
 import android.app.Application;
 import android.content.Context;
