@@ -151,7 +151,9 @@ android {
         }
     }
     buildTypes {
-
+        debug {
+            signingConfig signingConfigs.debug
+        }
     }
     // applicationVariants are e.g. debug, release
     applicationVariants.all { variant ->
